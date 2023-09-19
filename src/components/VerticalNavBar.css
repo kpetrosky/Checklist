@@ -1,0 +1,44 @@
+/* App.css */
+
+.App {
+    display: flex;
+    font-family: Arial, sans-serif;
+  }
+  
+  .vertical-navbar {
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .vertical-navbar h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .vertical-navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .vertical-navbar li {
+    margin-bottom: 10px;
+  }
+  
+  .vertical-navbar button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: left;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  

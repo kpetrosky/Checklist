@@ -1,0 +1,9 @@
+// Update data in local storage
+const storedData = localStorage.getItem("userData");
+const userData = JSON.parse(storedData);
+
+// Make changes
+userData.age = 31;
+
+// Store updated data back in local storage
+localStorage.setItem("userData", JSON.stringify(userData));
