@@ -1,0 +1,24 @@
+/* VerticalNavBar.css */
+/* Horizontal Navbar Styles */
+/* Horizontal Navbar Styles */
+.horizontal-navbar {
+  background-color: #a0d6e4; /* Set background color */
+  color: rgb(3, 3, 3); /* Set text color */
+  display: flex; /* Use flexbox to create a horizontal layout */
+  align-items: center; /* Center content vertically within the navbar */
+  padding: 10px; /* Adjust padding as needed */
+  position: fixed; /* Fixed positioning to keep it always visible */
+  top: 0; /* Align to the top */
+  right: 0; /* Align to the right */
+  width: 100%; /* Make the navbar full width */
+  justify-content: flex-end; /* Move contents to the right */
+  z-index: 1000; /* Adjust the z-index as needed */
+}
+
+.horizontal-navbar a {
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+  font-size: 20px;
+  margin-left: 20px; /* Add spacing between navigation links on the right */
+}
+

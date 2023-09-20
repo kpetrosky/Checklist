@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { classes } from "./data"; // Import your classes data
+import { Topics } from "./Topics";
+
 
 const Finished = () => {
   // State to store the filtered classes
@@ -10,7 +11,7 @@ const Finished = () => {
     const completedTopics = JSON.parse(localStorage.getItem("completedTopics")) || [];
 
     // Filter classes based on completed topics
-    const filteredClasses = classes.filter((cls) =>
+    const filteredClasses = Topics.filter((cls) =>
       cls.topics.some((topic) =>
         completedTopics.some(
           (completedTopic) =>
